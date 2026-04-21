@@ -27,6 +27,3 @@ W głównym katalogu znajduje się przykładowy plik audio, którego użyto do t
 Opcjonalne presety znajdują się w `presets.json`.
 Możesz rozszerzyć GUI o przycisk „Załaduj preset”.
 
-## katalog Kompilacja do EXE
-W folderze EXE BUILD znajduje się gotowy plik .exe, który działa bez instalowania bibliotek i bez Pythona. 
-Dołączono też skrót do głownego folderu uruchamiający aplikację.
