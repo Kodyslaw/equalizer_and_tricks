@@ -23,7 +23,3 @@ python audio_fx_gui.py
 ## Próbka
 W głównym katalogu znajduje się przykładowy plik audio, którego użyto do testowania działania programu.
 
-## Presety
-Opcjonalne presety znajdują się w `presets.json`.
-Możesz rozszerzyć GUI o przycisk „Załaduj preset”.
-
