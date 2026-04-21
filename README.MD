@@ -20,6 +20,4 @@ pip install -r requirements.txt
 ## Uruchom skrypt
 python audio_fx_gui.py
 
-## Próbka
-W głównym katalogu znajduje się przykładowy plik audio, którego użyto do testowania działania programu.
 
