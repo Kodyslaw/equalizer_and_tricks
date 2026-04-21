@@ -1,0 +1,53 @@
+{
+  "Flanger": {
+    "Subtelny": { "rate_hz": 0.3, "depth_ms": 1.2, "mix": 0.35, "feedback": 0.0, "waveform": "sine" },
+    "Odrzutowiec": { "rate_hz": 0.8, "depth_ms": 4.0, "mix": 0.6, "feedback": 0.25, "waveform": "sine" }
+  },
+  "Chorus": {
+    "Ciepły": { "rate_hz": 0.6, "depth_ms": 12.0, "mix": 0.45, "voices": 3, "waveform": "sine" },
+    "Szeroki": { "rate_hz": 0.9, "depth_ms": 18.0, "mix": 0.6, "voices": 4, "waveform": "triangle" }
+  },
+  "Delay": {
+    "Echo": { "delay_ms": 450.0, "feedback": 0.35, "mix": 0.5 },
+    "DługiOgon": { "delay_ms": 900.0, "feedback": 0.6, "mix": 0.55 }
+  },
+  "Reverb": {
+    "MałePomieszczenie": { "decay_ms": 400.0, "mix": 0.35 },
+    "DużaSala": { "decay_ms": 2200.0, "mix": 0.5 }
+  },
+  "Distortion": {
+    "Crunch": { "drive": 6.0, "mix": 0.5 },
+    "Twardy": { "drive": 12.0, "mix": 0.8 }
+  },
+  "Tremolo": {
+    "Delikatne": { "rate_hz": 5.0, "depth": 0.2, "mix": 0.8, "waveform": "sine" },
+    "Posiekane": { "rate_hz": 8.0, "depth": 0.9, "mix": 1.0, "waveform": "triangle" }
+  },
+  "AutoPan": {
+    "PowolnePanoramowanie": { "rate_hz": 0.25, "pan_depth": 1.0, "mix": 1.0, "waveform": "sine" },
+    "SzybkieKołysanie": { "rate_hz": 2.0, "pan_depth": 0.7, "mix": 1.0, "waveform": "triangle" }
+  },
+  "PitchShift": {
+    "OktawaWGórę": { "semitones": 12.0 },
+    "MałaTercjaWDół": { "semitones": -3.0 }
+  },
+  "Vibrato": {
+    "Lekkie": { "rate_hz": 5.0, "vib_depth": 15.0, "mix": 1.0, "waveform": "sine" },
+    "Głębokie": { "rate_hz": 6.5, "vib_depth": 60.0, "mix": 1.0, "waveform": "sine" }
+  },
+  "Compressor": {
+    "ŁagodnaKompresja": { "threshold_db": -18.0, "ratio": 2.0, "attack_ms": 10.0, "release_ms": 120.0, "makeup_db": 1.5, "comp_mix": 1.0 },
+    "MocnaKompresja": { "threshold_db": -30.0, "ratio": 6.0, "attack_ms": 5.0, "release_ms": 60.0, "makeup_db": 3.0, "comp_mix": 1.0 }
+  },
+  "16 Band EQ": {
+     "Flat": {
+      "eq_gains": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "Bass Boost": {
+      "eq_gains": [6, 5, 4, 3, 2, 1, 0, 0, 0, 0, -1, -2, -3, -4, -5, -6]
+    },
+    "V Shape": {
+      "eq_gains": [5, 4, 3, 2, 0, -2, -4, -5, -5, -4, -2, 0, 2, 3, 4, 5]
+    }
+  }
+}
